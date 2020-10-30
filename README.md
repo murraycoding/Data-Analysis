@@ -83,12 +83,29 @@ The UPDATE command is used to change records in a database. Using the SET comman
     Put in an example once all of the notes are typed
     
 ### DELETE
-The DELETE command is used to delete records from a database. This should be used with the FROM and WHERE commands to tell the program which database should be deleted from and what conditions need to be met in order to delete the records.
+The DELETE command is used to delete records from a database. This should be used with the FROM and WHERE commands to tell the program which database should be deleted from and what conditions need to be met in order to delete the records. If no WHERE command is given then all records from the data will be deleted.
 
-### 
+    Put in an example once all of the notes are typed
+
+### SELECT TOP
+The SELECT TOP command selects the top rows (of a given number) of the database. Similar to other statements, you can use the WHERE command to narrow the database down before selecting the data. You can also combine this with the ORDER BY command to get the top results in a certain field.
 
 In SQL, commands are not case sensitive but it is common practice to make them in ALL CAPS to differentiate the commands from the data bases and fields the commands are trying to access.
 
+    Put in an example once all of the notes are typed
+    
+### MIN / MAX
+The MIN and MAX commands combined with the SELECT command will select the largest or smallest data within the database.
+
+    Put in an example once all of the notes are typed
+    
+### COUNT / SUM / AVG
+The commands COUNT, SUM, and AVG can be used with the SELECT command to determine the count, the sum or the average of a set of data. The count data can count the number of rows of string data. However, SUM and AVG are required to have numerical data in order to function properly.
+
+    Put in an example once all of the notes are typed
+    
+### LIKE
+The LIEK command will search string data and return values which are "like" the given search criteria. Using special commands, you can specify how you want to search for information. For a full list on the different patters you can use, click [here](https://www.w3schools.com/sql/sql_like.asp)
 
 
 # SQL Lite
