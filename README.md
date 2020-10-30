@@ -50,10 +50,43 @@ The SELECT DISTINCT command is used to do exactly what it sounds like, it will r
 ### COUNT
 The COUNT command simply returns the number of rows which all within the query.
 
+    Put in an example once all of the notes are typed
+
 ### WHERE
 The WHERE command comes after the FROM command to specify the condition on which you want to pull the data.
 
+    Put in an example once all of the notes are typed
+
 ### AND, OR, NOT
+The AND, OR and NOT commands are used to combine different conditions in the WHERE command.
+
+    Put in an example once all of the notes are typed
+    
+### ORDER BY
+The ORDER BY command is used to order the data after it is pulled with the FROM command. If you would like to order the data by multiple fields, you can do so by putting the field after the ORDER BY command with commas separating each.
+
+    Put in an example once all of the notes are typed
+    
+### INSERT INTO
+The INSERT INTO command is used to insert the data into a table. The insert into command can be written in two differnt ways. The first specifies which columns the data values will go into. The other version of the command does not specify which columns the data will go into. In the later case, the command will assume you have the correct number of values to fill every field into the table.
+
+    Put in an example once all of the notes are typed
+    
+### NULL
+A field will a NULL value is a field with no value. Keep in mind that a NULL value is distinctly different than one with a zero value or one with spaces. Using the WHERE command, you can check for null values. The example below shows ... (descrie example below)
+
+    Put in an example once all of the notes are typed
+    
+### UPDATE
+The UPDATE command is used to change records in a database. Using the SET command, you can specify what the new values will be. The WHERE command is also important here to specify what exact values should be updated. If you do not include the WHERE command, the program will update all values within the given range.
+
+    Put in an example once all of the notes are typed
+    
+### DELETE
+The DELETE command is used to delete records from a database. This should be used with the FROM and WHERE commands to tell the program which database should be deleted from and what conditions need to be met in order to delete the records.
+
+### 
+
 In SQL, commands are not case sensitive but it is common practice to make them in ALL CAPS to differentiate the commands from the data bases and fields the commands are trying to access.
 
 
