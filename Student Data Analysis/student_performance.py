@@ -79,9 +79,11 @@ create_table = """
 # creates the table in the database
 execute_query(connection, create_table)
 
+# code to take each row of the original CSV file and properly insert it into the database
 connection.executemany("INSERT INTO Students (gender, race_ethnicity, parental_level_of_education, lunch, test_preparation_course, math_score, reading_score, writing_score) values (?,?,?,?,?,?,?,?)", sql_formatted_data[1:])
 
 # turns the SQL Database into a Pandas Dataframe
+# this is just to better visualize the database table
 print("\n - - - - - - PANDAS PART HERE - - - - - - - ")
 df = pd.read_sql_query("SELECT * FROM Students WHERE math_score > 70",connection)
 print(df)
